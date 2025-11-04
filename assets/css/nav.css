@@ -13,8 +13,8 @@ TOPNAV
   padding: .5rem 1rem;
   border-bottom: 1px solid var(--border);
   font-family: 'Source Sans 3', sans-serif;
-
-  background-color: var(--fog) !important;
+  background-color: var(--bg-tertiary) !important;
+  color: var(--text-tertiary) !important;
 }
 
 .navbar-brand {
@@ -22,17 +22,21 @@ TOPNAV
   font-weight: bold !important;
   text-decoration: none;
   border-bottom: none;
-  color: var(--text-primary) !important;
+}
+
+.navbar-brand:hover {
+  color: var(--text-tertiary) !important;
 }
 
 .navbar-nav {
   display: flex;
   list-style: none;
   gap: 1rem;
+  
 }
 
 .navbar-nav a {
-  color: var(--text-primary);
+  color: var(--text-tertiary);
   text-decoration: none;
   padding: .5rem 1rem;
   border-radius: 4px;
@@ -41,10 +45,18 @@ TOPNAV
 
 .navbar-nav a:hover,
 .navbar-nav a.active {
-  background: #e5e5e5;
-  color: #0072b1;
+  background: var(--clay);
+  color: var(--text-tertiary);
 }
 
+ul .dropdown-menu {
+  background-color: var(--bg-tertiary) !important;
+}
+
+.nav-link.dropdown-toggle.show {
+  background-color: var(--clay);
+  color: var(--text-tertiary);
+}
 
 /*****************************************************
 SIDENAV

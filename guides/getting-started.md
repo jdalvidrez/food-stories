@@ -7,9 +7,7 @@ date: 2019-10-03
 ---
 
 # {{page.title}}
-
-## Build a website in 10 minutes
-This page specifies each step necessary to get started with your own website.
+This page specifies each step necessary to get started with your own website. You can finish these steps and **have your own website in about 10 minutes**.
 
 ### Create an account at GitHub
 - Create an account at [GitHub](http://github.com/register). Whatever username you choose will be referred to below as GITHUB_USERNAME.

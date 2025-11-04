@@ -12,7 +12,7 @@ toc-section: piano
 geo: [44.600000, -110.500000]
 placename: Yellowstone National Park
 tags:
-    - music
+  - music
 ---
 
 # Welcome to the Jungle

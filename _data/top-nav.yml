@@ -1,26 +1,31 @@
 
-- title: "Getting Around"
+- title: "Instructions"
+  items:
+    - title: "Getting Started"
+      url: "/guides/getting-started"
+    - title: "Understanding Folders"
+      url: "/guides/understanding-folders"
+    - title: "Understanding Pages"
+      url: "/guides/understanding-pages"
+    - title: "Editing Your Site"
+      url: "/guides/editing-your-site"
+    - title: "Adding Images"
+      url: "/guides/adding-images"
+    - title: "Troubleshooting"
+      url: "/guides/troubleshooting"
+
+- title: "Navigation"
   items:
     - title: "Cards"
-      url: "/directories/"
+      url: "/navigation/"
     - title: "Left Navbar Demo"
-      url: "/directories/left-nav-demo"
+      url: "/navigation/left-nav-demo"
     - title: "Left Profile Demo"
-      url: "/directories/left-profile-demo"
-    - title: "Podcast List"
-      url: "/podcasts"
+      url: "/navigation/left-profile-demo"
     - title: "Map"
       url: "/map"
 
-- title: "Sample Essays"
-  items:
-    - title: "Seedling Essay"
-      url: "/essays/seedling"
-    - title: "Sapling Essay"
-      url: "/essays/sapling"
-    - title: "Forest Essay"
-      url: "/essays/forest"
-      
+
 - title: "Page components"
   items:
     - title: "Typography"
@@ -37,20 +42,18 @@
     - title: "Side scrolling text"
       url: "/components/side-scroll"
       
-- title: "Website Guides"
+
+
+
+- title: "Sample Essays"
   items:
-    - title: "Getting Started"
-      url: "/guides/getting-started"
-    - title: "Understanding Folders"
-      url: "/guides/understanding-folders"
-    - title: "Understanding Pages"
-      url: "/guides/understanding-pages"
-    - title: "Editing Your Site"
-      url: "/guides/editing-your-site"
-    - title: "Adding Images"
-      url: "/guides/adding-images"
-    - title: "Troubleshooting"
-      url: "/guides/troubleshooting"
+    - title: "Seedling Essay"
+      url: "/essays/seedling"
+    - title: "Sapling Essay"
+      url: "/essays/sapling"
+    - title: "Forest Essay"
+      url: "/essays/forest"
+      
 
 - title: "FAQs"
   url: "/faqs"

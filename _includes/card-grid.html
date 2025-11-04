@@ -5,7 +5,7 @@
   {% for card in cards %}
   {% if card.title and card.summary %}
   <div class="col">
-    <div class="card v-card h-100">
+    <div class="card v-card h-100"> 
       {% assign card_href = card.link | default: card.url %}
       <a href="{{site.baseurl}}{{ card_href }}">
         <img src="{{site.baseurl}}{{ card.dir }}{{ card.thumbnail }}" class="card-img-top" alt="...">      

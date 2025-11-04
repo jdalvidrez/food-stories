@@ -2,7 +2,7 @@
 title: My Second Podcast
 author: Fred Gibbs
 location: Albuquerque, NM
-image: /assets/images/Herder.jpg
+thumbnail: /assets/images/Herder.jpg
 summary: This is my second episode summary. Yummy!
 date: 2025-08-01
 layout: base

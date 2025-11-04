@@ -2,7 +2,7 @@
 title: My First Podcast
 author: Jonathan Seyfried
 location: Albuquerque, NM
-image: /assets/images/Johann.jpg
+thumbnail: /assets/images/Johann.jpg
 summary: This is my first episode summary. Delicious!
 date: 2025-08-01
 layout: base

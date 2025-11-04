@@ -1,0 +1,222 @@
+
+/*****************************************************
+CARDS
+*****************************************************/
+
+/* Shared card styles */
+.card {
+  overflow: hidden;
+  background: var(--bg-secondary-light);
+  opacity: .9;
+  border-radius: 8px;
+  transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.card:hover {
+  opacity: 1;
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card a {
+  border-bottom: 0;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.card-body {
+  padding: 1.5rem;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.card h3 {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--text-secondary);
+}
+
+
+/* Vertical cards for grid layouts */
+.v-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 20rem;
+}
+
+.v-card .card-img-top {
+  height: 15rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.v-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+
+.v-card:hover {
+  transform: scale(1.03);
+}
+
+
+/* Horizontal cards for stacked layouts */
+.h-card {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  min-height: 12rem;
+  margin-bottom: 1.5rem;
+}
+
+.h-card .card-img-left {
+  flex: 0 0 200px;
+  object-fit: cover;
+  width: 200px;
+  height: 100%;
+}
+
+.h-card .card-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h-card:hover {
+  transform: translateX(8px);
+}
+
+/* Card link wrapper */
+.h-card a.card-link {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+}
+
+.h-card a.card-link:hover {
+  text-decoration: none;
+}
+
+/* Tags in cards */
+.card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.card .tags .badge {
+  font-size: 0.85rem;
+  font-weight: normal;
+  padding: 0.35rem 0.65rem;
+}
+
+
+/* Responsive: horizontal cards become vertical on small screens */
+@media (max-width: 768px) {
+  .h-card {
+    flex-direction: column;
+  }
+  
+  .h-card .card-img-left {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 200px;
+  }
+}
+
+
+
+
+/*****************************************************
+ToC ROWS
+*****************************************************/
+
+.toc-row {
+  /* Display & Layout */
+  align-items: center;
+  overflow: hidden;
+
+  /* Box Model */
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+
+  /* Border & Background */
+  background: var(--bg-secondary);
+  border-left: 3px solid rgba(184, 125, 75, 0.7);
+  border-radius: 6px;
+
+  /* Typography */
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 300;
+
+  /* Animation */
+  transition: all 0.3s ease;
+}
+
+.toc-row:hover {
+  border-left-color: rgba(184, 125, 75, 1);
+  cursor: pointer;
+}
+
+.toc-row a {
+  font-weight: normal !important;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.toc-row h3 {
+  margin-top: 0;
+  font-size: 150%;
+  color: var(--text-primary);
+  text-transform: uppercase;
+}
+
+.toc-row p {
+  margin-bottom: 0;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.toc-row-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toc-body {
+  flex: 1;
+}
+
+.toc-arrow {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 2rem;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.toc-arrow svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.toc-row:hover .toc-arrow {
+  opacity: 1;
+}

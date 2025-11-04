@@ -21,6 +21,25 @@ header-image: /assets/images/backgrounds/pano-1.jpg
 ---
 ```
 
+Optionally, you can also include `header-height` and/or `header-position` to better control your image. 
+`header-height`: controls the height in whatever units you specify
+`header-position`: controls what part of the image is visible
+
+`header-position` is useful if you have a large image but only the middle part is what you want to see in the header. 
+
+
+```
+---
+title: Image Examples
+layout: base
+date: 2025-09-13
+header-image: /assets/images/backgrounds/pano-1.jpg
+header-height: 50vh
+header-position: 200px
+---
+```
+
+
 
 ## Section Header Images
 The [images page](images) shows how to create jumbotron images on your page that span the whole browser window. You can also use jumpbotrons as a section divider. Optionally, you also can add a title and subtitle.
