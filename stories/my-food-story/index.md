@@ -12,7 +12,7 @@ tags:
   - community
 ---
 
-# Generic Story Title
+# Generic Story Title WIP
 This story comes from Jordan Lee, who grew up in Chicago, where “barbecue” usually meant something you did on a gas grill in the backyard. She moved to North Carolina for school, and that’s where she got invited to her first real Southern barbecue. 
 
 {% include figure.html
