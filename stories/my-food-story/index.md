@@ -19,8 +19,10 @@ This story comes from Jordan Lee, who grew up in Chicago, where “barbecue” u
   class="right"
   width="40%"
   caption="What a nice view"
-  image-path="bbq.png"
+  image-pa<img width="619" height="419" alt="Screenshot 2025-12-11 115815" src="https://github.com/user-attachments/assets/d6dddb40-b61f-41da-aa26-bef9df821aeb" />
+th="bbq.png"
 %}
+
 
 
 ## Something more specific
