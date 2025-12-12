@@ -2,7 +2,7 @@
 title: My First BBQ
 author: Fred Gibbs
 location: Durham, NC
-thumbnail: bbq.png
+thumbnail: Screenshot 2025-12-11 223216.png
 summary: My first BBQ was hosted by Chef Boyardee and everyone was very happy. Yummy!
 date: 2025-08-01
 layout: base
