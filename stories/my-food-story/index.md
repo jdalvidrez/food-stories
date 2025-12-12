@@ -1,10 +1,10 @@
 ---
-title: My First BBQ
-author: Fred Gibbs
-location: Durham, NC
+title: My Friendsgiving Experience
+author: Jesse Alvidrez
+location: Albuquerque, NM
 thumbnail: Screenshot 2025-12-11 223216.png
 summary: My first BBQ was hosted by Chef Boyardee and everyone was very happy. Yummy!
-date: 2025-08-01
+date: 2025-12-11
 layout: base
 tags:
   - BBQ
