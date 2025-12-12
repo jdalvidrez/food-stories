@@ -18,7 +18,7 @@ This story comes from Jesse Alvidrez, who grew up in Taos and is currently atten
 {% include figure.html
   class="right"
   width="40%"
-  caption="What a nice view"
+  caption="A Friendsgiving Event"
   image-path="Screenshot 2025-12-11 223216.png"
 %}
 
