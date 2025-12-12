@@ -3,17 +3,17 @@ title: My Friendsgiving Experience
 author: Jesse Alvidrez
 location: Albuquerque, NM
 thumbnail: Screenshot 2025-12-11 223216.png
-summary: My first BBQ was hosted by Chef Boyardee and everyone was very happy. Yummy!
+summary: This is a story of my friendsgiving experiences from the past couple of years. 
 date: 2025-12-11
 layout: base
 tags:
-  - BBQ
-  - cookout
+  - Friendsgiving
+  - Friends
   - community
 ---
 
-# Generic Story Title WIP
-This story comes from Jordan Lee, who grew up in Chicago, where “barbecue” usually meant something you did on a gas grill in the backyard. She moved to North Carolina for school, and that’s where she got invited to her first real Southern barbecue. 
+# Friendsgiving and its Meaning
+This story comes from Jesse Alvidrez, who grew up in Taos and is currently attending the University of New Mexico. When he moved to Albuquerque, he knew the importance of finding a new community of friends to be around, and this in turn introduced him to friendsgiving and it's meanings to him.
 
 {% include figure.html
   class="right"
